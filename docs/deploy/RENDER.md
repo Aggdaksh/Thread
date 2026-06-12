@@ -20,6 +20,7 @@ Exact steps for deploying this app on Render **without Docker**: backend as a **
 | `PORT` | Set by Render; optional override | No |
 | `JWT_SECRET` | JWT signing secret (32+ chars) | **Yes** |
 | `DB_URI` | MongoDB Atlas SRV connection string | **Yes** |
+| `DB_NAME` | Atlas database name; keep exact case, e.g. `Thread` | No |
 | `REFRESH_PEPPER` | Pepper for refresh token hashing | **Yes** |
 | `WS_PATH` | WebSocket path, e.g. `/ws` (must match frontend) | No |
 | `CORS_ORIGIN` or `CORS_ORIGINS` | At least one: frontend origin(s) | No |
@@ -29,6 +30,14 @@ Exact steps for deploying this app on Render **without Docker**: backend as a **
 
 Optional: `COOKIE_DOMAIN`, `METRICS_MODE`, `HTTP_BODY_LIMIT`, `JWT_COOKIE_NAME`.  
 **Do not set on Render (dev-only):** `DEV_TOKEN_MODE`, `ENABLE_DEV_ROUTES`, `DEV_ROUTES_KEY`, `DEV_SESSION_KEY`, `ALLOW_LOCAL_DB`.
+
+Optional Mongo network tuning for Atlas/Render connection issues:
+
+```bash
+MONGO_NETWORK_FAMILY=4
+MONGO_SERVER_SELECTION_TIMEOUT_MS=30000
+MONGO_CONNECT_TIMEOUT_MS=20000
+```
 
 ### Redis / Key Value
 

@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "Thread WebSocket chat backend",
   "main": "server.js",
+  "engines": {
+    "node": "22.x"
+  },
   "scripts": {
     "obs:selfcheck": "node scripts/observability.selfcheck.js",
     "dev": "NODE_ENV=development node server.js",

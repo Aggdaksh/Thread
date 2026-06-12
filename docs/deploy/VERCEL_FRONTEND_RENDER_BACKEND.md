@@ -23,6 +23,10 @@ NODE_VERSION=22.16.0
 JWT_SECRET=<32+ char random secret>
 REFRESH_PEPPER=<32+ char random secret>
 DB_URI=<MongoDB Atlas connection string>
+DB_NAME=Thread
+MONGO_NETWORK_FAMILY=4
+MONGO_SERVER_SELECTION_TIMEOUT_MS=30000
+MONGO_CONNECT_TIMEOUT_MS=20000
 WS_PATH=/ws
 CORS_ORIGIN=https://<your-vercel-project>.vercel.app
 METRICS_MODE=secret
@@ -33,7 +37,7 @@ ROOT_ADMIN_USERNAME=daksh_root
 DISALLOW_FILE_STORE=true
 ```
 
-Render usually provides `PORT`; if it does, use Render's value. Keep `COOKIE_DOMAIN` blank unless you are using a custom shared domain.
+Render usually provides `PORT`; if it does, use Render's value. Keep `COOKIE_DOMAIN` blank unless you are using a custom shared domain. Keep `DB_NAME` exactly the same case as the Atlas database name.
 
 Redis is optional for a one-instance project deploy:
 
