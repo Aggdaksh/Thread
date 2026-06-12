@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" role="img" aria-label="Thread">
+  <defs>
+    <linearGradient id="thread-cyan" x1="12" x2="66" y1="14" y2="70" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#45c8e8"/>
+      <stop offset="1" stop-color="#34aee0"/>
+    </linearGradient>
+    <linearGradient id="thread-mint" x1="70" x2="118" y1="14" y2="66" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#69c9a8"/>
+      <stop offset="1" stop-color="#51b98d"/>
+    </linearGradient>
+    <linearGradient id="thread-purple" x1="12" x2="66" y1="70" y2="118" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#b45ab6"/>
+      <stop offset="1" stop-color="#8f49a8"/>
+    </linearGradient>
+    <linearGradient id="thread-yellow" x1="70" x2="118" y1="70" y2="118" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#ffd51b"/>
+      <stop offset="1" stop-color="#f1b80f"/>
+    </linearGradient>
+  </defs>
+  <rect x="12" y="16" width="50" height="42" rx="11" fill="url(#thread-cyan)"/>
+  <path d="M47 58 67 67 62 50Z" fill="url(#thread-cyan)"/>
+  <rect x="68" y="16" width="48" height="42" rx="11" fill="url(#thread-mint)"/>
+  <path d="M82 58 63 67 68 50Z" fill="url(#thread-mint)"/>
+  <rect x="12" y="72" width="48" height="42" rx="11" fill="url(#thread-purple)"/>
+  <path d="M60 79 70 72 60 96Z" fill="url(#thread-purple)"/>
+  <rect x="68" y="72" width="48" height="42" rx="11" fill="url(#thread-yellow)"/>
+  <path d="M68 79 58 72 68 96Z" fill="url(#thread-yellow)"/>
+</svg>

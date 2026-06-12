@@ -1,0 +1,94 @@
+# Dependencies
+node_modules/
+**/node_modules/
+.pnp/
+.pnp.*
+
+# Environment and secrets
+.env
+.env.*
+!.env.example
+!**/.env.example
+.envrc
+*.pem
+*.key
+*.p12
+*.pfx
+*.crt
+*.csr
+*.jks
+*.keystore
+.npmrc
+
+# Local auth/session data
+cookies.txt
+*.cookie
+*.cookies
+
+# Build output and caches
+dist/
+**/dist/
+build/
+**/build/
+coverage/
+**/coverage/
+.vite/
+**/.vite/
+.cache/
+**/.cache/
+.parcel-cache/
+.turbo/
+.next/
+out/
+
+# Logs and diagnostics output
+logs/
+**/logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+debug.log
+
+# Local runtime storage, uploads, and databases
+backend/storage/_data/
+backend/storage/_data/**
+backend/storage/uploads/
+backend/storage/uploads/**
+uploads/
+**/uploads/
+*.sqlite
+*.sqlite3
+*.db
+*.db-journal
+dump.rdb
+
+# Generated verification/export artifacts
+verification/**/*.zip
+verification/**/*.docx
+verification/**/*.xlsx
+*.zip
+*.tar
+*.tar.gz
+*.tgz
+*.rar
+*.7z
+
+# OS/editor noise
+.DS_Store
+._*
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# Process managers and temp files
+.pm2/
+tmp/
+temp/
+*.tmp
+*.bak
+__MACOSX/

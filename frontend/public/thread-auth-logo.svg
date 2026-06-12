@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 760" role="img" aria-label="Thread">
+  <defs>
+    <linearGradient id="auth-cyan" x1="260" x2="420" y1="60" y2="230" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#46c8e8"/>
+      <stop offset="1" stop-color="#34aee0"/>
+    </linearGradient>
+    <linearGradient id="auth-mint" x1="470" x2="640" y1="60" y2="230" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#69c9a8"/>
+      <stop offset="1" stop-color="#51b98d"/>
+    </linearGradient>
+    <linearGradient id="auth-purple" x1="260" x2="430" y1="260" y2="450" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#b65ab8"/>
+      <stop offset="1" stop-color="#8f49a8"/>
+    </linearGradient>
+    <linearGradient id="auth-yellow" x1="470" x2="640" y1="260" y2="450" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#ffd51b"/>
+      <stop offset="1" stop-color="#f1b80f"/>
+    </linearGradient>
+    <filter id="soft-shadow" x="-20%" y="-20%" width="140%" height="140%" color-interpolation-filters="sRGB">
+      <feDropShadow dx="0" dy="18" stdDeviation="18" flood-color="#0f172a" flood-opacity=".12"/>
+    </filter>
+  </defs>
+  <rect width="900" height="760" rx="36" fill="#ffffff"/>
+  <g filter="url(#soft-shadow)">
+    <rect x="262" y="54" width="158" height="138" rx="24" fill="url(#auth-cyan)"/>
+    <path d="M380 192 432 216 420 166Z" fill="url(#auth-cyan)"/>
+    <rect x="480" y="54" width="158" height="138" rx="24" fill="url(#auth-mint)"/>
+    <path d="M520 192 468 216 480 166Z" fill="url(#auth-mint)"/>
+    <rect x="262" y="250" width="158" height="138" rx="24" fill="url(#auth-purple)"/>
+    <path d="M420 280 454 250 420 334Z" fill="url(#auth-purple)"/>
+    <rect x="480" y="250" width="158" height="138" rx="24" fill="url(#auth-yellow)"/>
+    <path d="M480 280 446 250 480 334Z" fill="url(#auth-yellow)"/>
+  </g>
+  <text x="450" y="570" text-anchor="middle" fill="#050505" font-family="Arial, Helvetica, sans-serif" font-size="100" font-weight="900" letter-spacing="24">THREAD</text>
+  <text x="450" y="650" text-anchor="middle" fill="#050505" font-family="Arial, Helvetica, sans-serif" font-size="34" font-weight="800" letter-spacing="2">CHAT, SHARE, AND STAY CONNECTED</text>
+</svg>
